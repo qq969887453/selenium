@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587531dc-6702-4614-a66d-4fd1e9287e2e" name="Default Changelist" comment="create">
-      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/page/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/LoginPageHelper.java" afterDir="false" />
+    <list default="true" id="587531dc-6702-4614-a66d-4fd1e9287e2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/page/FramePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/page/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/FramePageHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/HomePageHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/base/BaseParpare.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/base/BaseParpare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/LoginPageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/LoginPageHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,7 @@
       <recent name="E:\IDEAWork\selenium\study1\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BaseParpare.test">
+  <component name="RunManager" selected="TestNG.LoginPage_001_LoginSuccessFunction_Test.loginSuccessFunction">
     <configuration name="BaseParpare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.test.base.BaseParpare" />
       <module name="study1" />
@@ -99,8 +103,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginPage_001_LoginSuccessFunction_Test.loginSuccessFunction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="study1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.test.cases.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.test.cases.login" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test.cases.login.LoginPage_001_LoginSuccessFunction_Test" />
+      <option name="METHOD_NAME" value="loginSuccessFunction" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginPage_001_LoginSuccessFunction_Test.loginSuccessFunction" />
         <item itemvalue="TestNG.BaseParpare.test" />
         <item itemvalue="Application.BaseParpare" />
       </list>
@@ -133,7 +156,7 @@
       <workItem from="1592188867890" duration="2914000" />
       <workItem from="1592885044949" duration="28000" />
       <workItem from="1592891636550" duration="5305000" />
-      <workItem from="1593054977518" duration="8450000" />
+      <workItem from="1593054977518" duration="12792000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <created>1592190637742</created>
@@ -156,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593142289233</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create">
+      <created>1593148840670</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593148840670</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,10 +197,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="create" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="529" y="0" key="CommitChangelistDialog2" timestamp="1593148554710">
+    <state x="529" y="0" key="CommitChangelistDialog2" timestamp="1593148832220">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="529" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593148554710" />
+    <state x="529" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593148832220" />
     <state width="426" height="466" key="DebuggerActiveHint" timestamp="1593146368276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -187,22 +217,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="728" y="125" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1592189722229" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1593148653917">
+    <state width="1323" height="393" key="GridCell.Tab.0.bottom" timestamp="1593152539381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593148653917" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1593148653917">
+    <state width="1323" height="393" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593152539381" />
+    <state width="1323" height="393" key="GridCell.Tab.0.center" timestamp="1593152539381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593148653917" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1593148653917">
+    <state width="1323" height="393" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593152539381" />
+    <state width="1323" height="393" key="GridCell.Tab.0.left" timestamp="1593152539381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593148653917" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1593148653917">
+    <state width="1323" height="393" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593152539381" />
+    <state width="1323" height="393" key="GridCell.Tab.0.right" timestamp="1593152539381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593148653917" />
+    <state width="1323" height="393" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593152539381" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1593148653917">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -49,9 +49,4 @@ public class BaseParpare {
             Assert.fail("浏览器driver没有获取对象，退出失败");
         }
     }
-
-    @Test
-    public void test(){
-
-    }
 }
