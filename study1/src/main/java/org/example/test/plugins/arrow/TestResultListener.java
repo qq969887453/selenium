@@ -1,5 +1,7 @@
 package org.example.test.plugins.arrow;
 
+
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -8,11 +10,13 @@ import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.TestListenerAdapter;
-
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
+/**
+ * 监听运行状态和结果
+ */
 public class TestResultListener extends TestListenerAdapter {
     private static Logger logger = Logger.getLogger(TestResultListener.class.getName());
     protected ITestContext testContext = null; // 这里也是新加的

@@ -47,7 +47,19 @@
             <artifactId>commons-configuration</artifactId>
             <version>1.10</version>
         </dependency>
+        <!--arrow插件用到-->
+        <dependency>
+            <groupId>com.thoughtworks.qdox</groupId>
+            <artifactId>qdox</artifactId>
+            <version>1.12.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <!-- 经过测试 maven-compiler-plugin 插件版本请使用3.3，否则在jenkins上无法执行测试 -->
+            <version>3.8.0</version>
+            <type>maven-plugin</type>
+        </dependency>
     </dependencies>
-
-
 </project>

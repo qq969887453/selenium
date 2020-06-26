@@ -14,6 +14,9 @@
     <parameter name="waitMillisecondsForAlert" value="4000" />
 
     <listeners>
-        <listener></listener>
+        <!-- arrow插件实现用例失败重跑以及生成测试报告 -->
+        <listener class-name="org.example.test.plugins.arrow.TestResultListener" />
+        <listener class-name="org.example.test.plugins.arrow.RetryListener" />
+        <listener class-name="org.example.test.plugins.arrow.PowerEmailableReporter" />
     </listeners>
 </suite>
