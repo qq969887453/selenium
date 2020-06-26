@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587531dc-6702-4614-a66d-4fd1e9287e2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/base/BaseParpare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/SeleniumUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/plugins/arrow/PowerEmailableReporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/plugins/arrow/PowerEmailableReporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/plugins/arrow/RetryListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/plugins/arrow/RetryListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/plugins/arrow/TestResultListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/plugins/arrow/TestResultListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/resources/testng.xml" afterDir="false" />
+    <list default="true" id="587531dc-6702-4614-a66d-4fd1e9287e2e" name="Default Changelist" comment="create">
+      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/page/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/LoginPageHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/base/BaseParpare.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/base/BaseParpare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
       <recent name="E:\IDEAWork\selenium\study1\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.BaseParpare.test">
     <configuration name="BaseParpare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.test.base.BaseParpare" />
       <module name="study1" />
@@ -84,8 +81,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BaseParpare.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="study1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.test.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.test.base" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test.base.BaseParpare" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BaseParpare.test" />
         <item itemvalue="Application.BaseParpare" />
       </list>
     </recent_temporary>
@@ -117,7 +133,7 @@
       <workItem from="1592188867890" duration="2914000" />
       <workItem from="1592885044949" duration="28000" />
       <workItem from="1592891636550" duration="5305000" />
-      <workItem from="1593054977518" duration="3385000" />
+      <workItem from="1593054977518" duration="8450000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <created>1592190637742</created>
@@ -133,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592190862649</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create">
+      <created>1593142289233</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593142289233</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,10 +167,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="create" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="529" y="0" key="CommitChangelistDialog2" timestamp="1592190858894">
+    <state x="529" y="0" key="CommitChangelistDialog2" timestamp="1593148554710">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="529" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592190858894" />
+    <state x="529" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593148554710" />
+    <state width="426" height="466" key="DebuggerActiveHint" timestamp="1593146368276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="426" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1593146368276" />
     <state x="836" y="184" key="FileChooserDialogImpl" timestamp="1592191215835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -160,22 +187,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="728" y="125" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1592189722229" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1593055883786">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1593148653917">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593055883786" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1593055883786">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593148653917" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1593148653917">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593055883786" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1593055883786">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593148653917" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1593148653917">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593055883786" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1593055883786">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593148653917" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1593148653917">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593055883786" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593148653917" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1593148653917">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593148653917" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1593148653917">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593148653917" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1593148653917">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593148653917" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1593148653917">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593148653917" />
     <state x="157" y="43" key="Maven.ArtifactSearchDialog" timestamp="1592892543702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -216,5 +259,19 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="713" y="193" key="svn4idea.import.options/0.0.1366.728@0.0.1366.728" timestamp="1592191150649" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/study1/src/main/java/org/example/test/base/BaseParpare.java</url>
+          <line>25</line>
+          <properties class="org.example.test.base.BaseParpare" method="startTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
