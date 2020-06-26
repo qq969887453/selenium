@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="selenium_2_combat" parallel="tests" thread-count="2">
     <!--chrome,firefox,ghost,ie不区分大小写-->
     <parameter name="browserName" value="chrome"/>
@@ -12,6 +13,17 @@
     <parameter name="timeOut" value="20" />
     <!--alert 弹出框等待时间 ms-->
     <parameter name="waitMillisecondsForAlert" value="4000" />
+
+    <test name="Login" preserve-order="true">
+        <packages>
+            <package name = "org.example.test.cases.login"/>
+        </packages>
+    </test>
+    <test name="Home" preserve-order="true">
+        <packages>
+            <package name = "org.example.test.cases.login"/>
+        </packages>
+    </test>
 
     <listeners>
         <!-- arrow插件实现用例失败重跑以及生成测试报告 -->

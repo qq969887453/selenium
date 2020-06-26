@@ -9,11 +9,11 @@ import java.util.Map;
 
 public class LoginPage_001_LoginSuccessFunction_Test extends BaseParpare {
 
-    @Test(dataProvider = "testData")
+    @Test
     public void loginSuccessFunction(Map<String, String> data) {
         LoginPageHelper.waitLoginPageLoad(seleniumUtil, timeOut);
-        LoginPageHelper.typeLoginInfo(seleniumUtil, data.get("username"), data.get("password"));
+        LoginPageHelper.typeLoginInfo(seleniumUtil, "jojo", "bean");
         HomePageHelper.waitHomePageLoad(seleniumUtil, timeOut);
-        HomePageHelper.checkUsername(seleniumUtil, timeOut, data.get("username"));
+        HomePageHelper.checkUsername(seleniumUtil, timeOut, "jojo");
     }
 }
