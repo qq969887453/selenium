@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587531dc-6702-4614-a66d-4fd1e9287e2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/study1/src/main/resources/driver/chrome/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/logFilePath" beforeDir="false" afterPath="$PROJECT_DIR$/study1/logFilePath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/base/BaseParpare.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/base/BaseParpare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/test-output/power-emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test-output/power-emailable-report.html" afterDir="false" />
-    </list>
+    <list default="true" id="587531dc-6702-4614-a66d-4fd1e9287e2e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,6 +162,7 @@
       <workItem from="1592885044949" duration="28000" />
       <workItem from="1592891636550" duration="5305000" />
       <workItem from="1593054977518" duration="16270000" />
+      <workItem from="1593260759639" duration="241000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <created>1592190637742</created>
@@ -212,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593162570295</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="uodate">
+      <created>1593260833872</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593260833872</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,13 +221,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create" />
-    <option name="LAST_COMMIT_MESSAGE" value="create" />
+    <MESSAGE value="uodate" />
+    <option name="LAST_COMMIT_MESSAGE" value="uodate" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="529" y="0" key="CommitChangelistDialog2" timestamp="1593162568045">
+    <state x="529" y="0" key="CommitChangelistDialog2" timestamp="1593261203307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="529" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593162568045" />
+    <state x="529" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593261203307" />
     <state width="426" height="466" key="DebuggerActiveHint" timestamp="1593146368276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -291,10 +293,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="404" y="105" width="549" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1593164231786" />
-    <state x="509" y="134" key="Vcs.Push.Dialog.v2" timestamp="1592191120153">
+    <state x="509" y="134" key="Vcs.Push.Dialog.v2" timestamp="1593260990212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="509" y="134" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592191120153" />
+    <state x="509" y="134" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593260990212" />
     <state x="444" y="209" width="817" height="473" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1592188942388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -307,6 +309,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="711" y="316" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1592190683578" />
+    <state x="526" y="272" key="git4idea.ui.GitStashDialog" timestamp="1593260978032">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="526" y="272" key="git4idea.ui.GitStashDialog/0.0.1366.728@0.0.1366.728" timestamp="1593260978032" />
     <state x="-74" y="95" key="new project wizard" timestamp="1591929875899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
