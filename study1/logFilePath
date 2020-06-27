@@ -1,18 +1,22 @@
-[2020-06-26 14:56:35][WARN]FileNotFoundException:./config/config.properties
-[2020-06-26 14:56:35][INFO]RetryCount=0
-[2020-06-26 14:56:35][INFO]SourceDir=src
-[2020-06-26 14:56:35][INFO]SourceEncoding=UTF-8
-[2020-06-26 14:56:35][INFO]当前操作系统是[Windows 10]
-[2020-06-26 14:56:35][INFO]当前操作系统是[Windows 10]
-[2020-06-26 14:56:35][INFO]启动的测试浏览器[chrome]
-[2020-06-26 14:56:35][INFO]启动的测试浏览器[chrome]
-[2020-06-26 14:56:35][ERROR]浏览器启动异常！
-[2020-06-26 14:56:35][ERROR]浏览器启动异常！
-[2020-06-26 14:56:35][WARN]loginSuccessFunction 测试用例执行失败！
-[2020-06-26 14:56:35][WARN]loginSuccessFunction 测试用例执行失败！
-[2020-06-26 14:56:35][ERROR][2020_06_26_14_56_35_loginSuccessFunction] ,截图失败，原因：null
-[2020-06-26 14:56:35][ERROR][2020_06_26_14_56_35_loginSuccessFunction] ,截图失败，原因：null
-[2020-06-26 14:56:35][ERROR]浏览器driver没有获取对象，退出失败
-[2020-06-26 14:56:35][ERROR]浏览器driver没有获取对象，退出失败
-[2020-06-26 14:56:35][INFO]执行失败的用例 = loginSuccessFunction
-[2020-06-26 14:56:35][INFO]执行失败的用例 = loginSuccessFunction
+[2020-06-26 17:30:26][WARN]FileNotFoundException:./config/config.properties
+[2020-06-26 17:30:26][INFO]RetryCount=0
+[2020-06-26 17:30:26][INFO]SourceDir=src
+[2020-06-26 17:30:26][INFO]SourceEncoding=UTF-8
+[2020-06-26 17:30:26][INFO]开始启动浏览器!
+[2020-06-26 17:30:26][INFO]开始启动浏览器!
+[2020-06-26 17:30:26][INFO]当前操作系统是[Windows 10]
+[2020-06-26 17:30:26][INFO]启动的测试浏览器[chrome]
+[2020-06-26 17:30:26][INFO]当前操作系统是[Windows 10]
+[2020-06-26 17:30:26][INFO]启动的测试浏览器[chrome]
+[2020-06-26 17:30:26][ERROR]浏览器启动异常！
+[2020-06-26 17:30:26][ERROR]浏览器启动异常！
+[2020-06-26 17:30:26][INFO]loginSuccessFunction 测试用例开始执行！
+[2020-06-26 17:30:26][INFO]loginSuccessFunction 测试用例开始执行！
+[2020-06-26 17:30:27][WARN]loginSuccessFunction 测试用例执行失败！
+[2020-06-26 17:30:27][WARN]loginSuccessFunction 测试用例执行失败！
+[2020-06-26 17:30:27][ERROR][2020_06_26_17_30_27_loginSuccessFunction] ,截图失败，原因：null
+[2020-06-26 17:30:27][ERROR][2020_06_26_17_30_27_loginSuccessFunction] ,截图失败，原因：null
+[2020-06-26 17:30:27][ERROR]浏览器driver没有获取对象，退出失败
+[2020-06-26 17:30:27][ERROR]浏览器driver没有获取对象，退出失败
+[2020-06-26 17:30:27][INFO]执行失败的用例 = loginSuccessFunction
+[2020-06-26 17:30:27][INFO]执行失败的用例 = loginSuccessFunction

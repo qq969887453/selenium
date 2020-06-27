@@ -10,7 +10,7 @@ import java.util.Map;
 public class LoginPage_001_LoginSuccessFunction_Test extends BaseParpare {
 
     @Test
-    public void loginSuccessFunction(Map<String, String> data) {
+    public void loginSuccessFunction() {
         LoginPageHelper.waitLoginPageLoad(seleniumUtil, timeOut);
         LoginPageHelper.typeLoginInfo(seleniumUtil, "jojo", "bean");
         HomePageHelper.waitHomePageLoad(seleniumUtil, timeOut);

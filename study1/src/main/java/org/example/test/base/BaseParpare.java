@@ -7,7 +7,6 @@ import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
 public class BaseParpare {
     static Logger logger = Logger.getLogger(BaseParpare.class.getName());
@@ -24,10 +23,10 @@ public class BaseParpare {
      */
     @BeforeClass
     public void startTest(ITestContext context){
+        logger.info("开始启动浏览器!");
         seleniumUtil = new SeleniumUtil();
         this.testContext = context;
         String browserName = context.getCurrentXmlTest().getParameter("browserName");
-        System.out.println(browserName+"browserName");
         webUrl = context.getCurrentXmlTest().getParameter("testurl");
         timeOut = Integer.valueOf(context.getCurrentXmlTest().getParameter("timeOut"));
         sleepTime = Integer.valueOf(context.getCurrentXmlTest().getParameter("sleepTime"));
