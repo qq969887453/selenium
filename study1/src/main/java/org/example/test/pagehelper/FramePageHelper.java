@@ -1,7 +1,5 @@
 package org.example.test.pagehelper;
 
-import org.example.test.page.FramePage;
-import org.example.test.page.LoginPage;
 import org.example.test.utils.SeleniumUtil;
 import org.openqa.selenium.By;
 
@@ -21,5 +19,13 @@ public class FramePageHelper {
      */
     public static void jumpOut(SeleniumUtil seleniumUtil){
         seleniumUtil.outFrame();
+    }
+
+    /**
+     * @param seleniumUtil
+     * @Description 回退
+     */
+    public static void jumpParentFrame(SeleniumUtil seleniumUtil){
+        seleniumUtil.parentFrame();
     }
 }

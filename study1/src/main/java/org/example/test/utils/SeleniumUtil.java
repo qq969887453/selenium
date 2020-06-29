@@ -465,8 +465,15 @@ public class SeleniumUtil {
     }
 
     /** 跳出frame */
-    public void outFrame() {
+    public void outFrame(){
         driver.switchTo().defaultContent();
+    }
+
+    /**
+     * 返回上一级
+     */
+    public void parentFrame(){
+        driver.switchTo().parentFrame();
     }
 
     // webdriver中可以设置很多的超时时间

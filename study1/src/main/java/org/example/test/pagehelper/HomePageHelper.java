@@ -3,6 +3,7 @@ package org.example.test.pagehelper;
 import org.apache.log4j.Logger;
 import org.example.test.page.FramePage;
 import org.example.test.page.HomePage;
+import org.example.test.page.LoginPage;
 import org.example.test.utils.SeleniumUtil;
 
 public class HomePageHelper {
@@ -29,13 +30,29 @@ public class HomePageHelper {
         seleniumUtil.waitForElementToLoad(timeOut, HomePage.HP_BUTTON_SIGNOFF);
         logger.info("首页元素加载完毕");
         FramePageHelper.jumpOut(seleniumUtil);
-
     }
 
+    /**
+     * @param seleniumUtil
+     * @param time
+     * @param username
+     * @description 登录成功检查用户名是否正确
+     */
     public static void checkUsername(SeleniumUtil seleniumUtil, int time, String username){
         FramePageHelper.jumpIntoFrame(seleniumUtil, FramePage.FP_FRAME_BODY);
         FramePageHelper.jumpIntoFrame(seleniumUtil, FramePage.FP_FRAME_INFO);
         logger.info("开始检查用户名"+username);
         seleniumUtil.isTextCorrect(seleniumUtil.getText(HomePage.HP_TEXT_USERNAME), username);
+    }
+
+    /**
+     * @param seleniumUtil
+     * @param time
+     * @description 登录失败时结果检查
+     */
+    public static void checkLoginFailure(SeleniumUtil seleniumUtil, int time){
+        FramePageHelper.jumpIntoFrame(seleniumUtil, FramePage.FP_FRAME_INFO);
+        logger.info("检查登录失败信息");
+        seleniumUtil.isTextCorrect(seleniumUtil.getText(LoginPage.LP_TEXT_ERROR), "Web Tours Error - Incorrect Password");
     }
 }
