@@ -33,7 +33,7 @@ public class SeleniumUtil {
      */
     public void launchBrowser(String browserName, ITestContext context, String webUrl, int timeOut){
         SelectBrowser select = new SelectBrowser();
-        driver = select.selectExplorerByName(browserName, context);
+        driver = select.selectExplorer(browserName, context);
         try {
             maxWindow(browserName);
             waitForPageLoading(timeOut);

@@ -20,6 +20,13 @@ public class SelectBrowser {
 
     static Logger logger = Logger.getLogger(SelectBrowser.class.getName());
 
+    public WebDriver selectExplorer(String browser, ITestContext context){
+        if (browser.equalsIgnoreCase("chrome")){
+            return new ChromeDriver();
+        }
+        return null;
+    }
+
     public WebDriver selectExplorerByName(String browser, ITestContext context){
         // 获取系统属性集
         Properties props = System.getProperties();
@@ -33,6 +40,7 @@ public class SelectBrowser {
 
         // 声明驱动路径
         String chromedriver_win = PropertiesDateProvider.getTestData(driverConfigFilePath, "chromedriver_win");
+        System.out.println(chromedriver_win);
         String chromedriver_linux = PropertiesDateProvider.getTestData(driverConfigFilePath, "chromedriver_linux");
         String chromedriver_mac = PropertiesDateProvider.getTestData(driverConfigFilePath, "chromedriver_mac");
         String ghostdriver_win = PropertiesDateProvider.getTestData(driverConfigFilePath, "ghostdriver_win");
@@ -41,13 +49,12 @@ public class SelectBrowser {
         if (currentPlatform.toLowerCase().contains("win")){
             if (browser.equalsIgnoreCase("ie")){
                 System.setProperty("webdriver.ie.driver", iedriver);
-
                 // 设置IE浏览器常规设置，便于执行自动化测试
                 DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
                 ieCapabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
                 return new InternetExplorerDriver(ieCapabilities);
             }else if (browser.equalsIgnoreCase("chrome")){
-                System.setProperty("webdriver.chrome.driver","chrome");
+                System.setProperty("webdriver.chrome.driver", chromedriver_win);
                 return new ChromeDriver();
             }else if (browser.equalsIgnoreCase("firefox")){
                 return new FirefoxDriver();

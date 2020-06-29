@@ -34,7 +34,7 @@ public class HomePageHelper {
 
     public static void checkUsername(SeleniumUtil seleniumUtil, int time, String username){
         FramePageHelper.jumpIntoFrame(seleniumUtil, FramePage.FP_FRAME_BODY);
-        FramePageHelper.jumpIntoFrame(seleniumUtil, FramePage.FP_FRAME_NAVBAR);
+        FramePageHelper.jumpIntoFrame(seleniumUtil, FramePage.FP_FRAME_INFO);
         logger.info("开始检查用户名"+username);
         seleniumUtil.isTextCorrect(seleniumUtil.getText(HomePage.HP_TEXT_USERNAME), username);
     }

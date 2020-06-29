@@ -15,6 +15,7 @@ public class PropertiesDateProvider {
         } catch (ConfigurationException e) {
             e.printStackTrace();
         }
+        System.out.println(String.valueOf(config.getProperties(key)));
         return String.valueOf(config.getProperties(key));
     }
 }

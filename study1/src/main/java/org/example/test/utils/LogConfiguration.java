@@ -13,7 +13,7 @@ public class LogConfiguration {
         String functionName = getFunctionName(fileName);
 
         // 声明日志文件存储路径以及文件名、格式
-        final String logFilePath = "./result/log" + functionName + fileName + ".log";
+        final String logFilePath = "./result/logs" + functionName + fileName + ".log";
         Properties prop = new Properties();
 
         // 配置日志输出的格式
