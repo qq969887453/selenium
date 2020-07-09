@@ -1,48 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587531dc-6702-4614-a66d-4fd1e9287e2e" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/study1/logs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/logs.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/logs/BaseParpare/BaseParparePage_.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/logs/TestngRetry/TestngRetryPage_.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/logs/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/logs/log.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/logs/logs.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/logsTestngRetryTestngRetryPage_.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_09_10_15_36_loginSuccessFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_09_10_23_39_loginSuccessFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/data/pojo/RegisterUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/src/main/resources/mybaties/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/src/main/resources/mybaties/mapper/RegisterMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/src/main/resources/mybaties/mybaties-config.xml" afterDir="false" />
+    <list default="true" id="587531dc-6702-4614-a66d-4fd1e9287e2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/ExcelDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/demo/ReadExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/logFilePath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/study1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_15_44_34_loginFailureFunction.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_15_56_07_loginFailureFunction.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_15_57_17_loginFailureFunction.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_15_58_32_loginFailureFunction.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_16_00_19_loginFailureFunction.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_09_10_08_45_loginSuccessFunction.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_16_01_03_loginFailureFunction.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_09_10_10_30_loginSuccessFunction.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_16_06_07_loginFailureFunction.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_17_08_31_registerSuccessFunction.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_09_09_46_37_registerSuccessFunction.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_17_09_35_registerSuccessFunction.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_17_12_07_registerSuccessFunction.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_17_12_57_registerSuccessFunction.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/base/BaseParpare.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/base/BaseParpare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/RegisterPage_002_RegisterSuccessFunction_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/RegisterPage_002_RegisterSuccessFunction_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/RegisterPageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/RegisterPageHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/LogConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/LogConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/SeleniumUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/SeleniumUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/target/classes/org/example/test/base/BaseParpare.class" beforeDir="false" afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/base/BaseParpare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/target/classes/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/target/classes/org/example/test/utils/LogConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/utils/LogConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/target/classes/org/example/test/utils/SeleniumUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/utils/SeleniumUtil$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/target/classes/org/example/test/utils/SeleniumUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/utils/SeleniumUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/test-output/power-emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test-output/power-emailable-report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,13 +74,13 @@
       <recent name="E:\IDEAWork\selenium\study1\src\main\resources\driver\chrome" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.E:/IDEAWork/selenium/study1/src/main/resources/testng.xml">
-    <configuration name="BaseParpare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.test.base.BaseParpare" />
+  <component name="RunManager" selected="JUnit.ReadExcel.readExcel2Map">
+    <configuration name="ReadExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.test.utils.demo.ReadExcel" />
       <module name="study1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.test.base.*" />
+          <option name="PATTERN" value="org.example.test.utils.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,68 +88,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaseParpare.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadExcel.readAllData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.test.base.*" />
+          <option name="PATTERN" value="org.example.test.utils.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.test.base" />
-      <option name="MAIN_CLASS_NAME" value="org.example.test.base.BaseParpare" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="org.example.test.utils.demo" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test.utils.demo.ReadExcel" />
+      <option name="METHOD_NAME" value="readAllData" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E:/IDEAWork/selenium/study1/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="study1" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/study1/src/main/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E:/IDEAWork/selenium/study1/target/classes/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/study1/target/classes/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPage_001_LoginSuccessFunction_Test.loginSuccessFunction" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadExcel.readExcel2Map" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.test.cases.login.*" />
+          <option name="PATTERN" value="org.example.test.utils.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.test.cases.login" />
-      <option name="MAIN_CLASS_NAME" value="org.example.test.cases.login.LoginPage_001_LoginSuccessFunction_Test" />
-      <option name="METHOD_NAME" value="loginSuccessFunction" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="org.example.test.utils.demo" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test.utils.demo.ReadExcel" />
+      <option name="METHOD_NAME" value="readExcel2Map" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadExcel.readRowData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.test.utils.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.test.utils.demo" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test.utils.demo.ReadExcel" />
+      <option name="METHOD_NAME" value="readRowData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadExcel.readTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.test.utils.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.test.utils.demo" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test.utils.demo.ReadExcel" />
+      <option name="METHOD_NAME" value="readTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.E:/IDEAWork/selenium/study1/src/main/resources/testng.xml" />
-        <item itemvalue="TestNG.E:/IDEAWork/selenium/study1/target/classes/testng.xml" />
-        <item itemvalue="TestNG.LoginPage_001_LoginSuccessFunction_Test.loginSuccessFunction" />
-        <item itemvalue="TestNG.BaseParpare.test" />
-        <item itemvalue="Application.BaseParpare" />
+        <item itemvalue="JUnit.ReadExcel.readExcel2Map" />
+        <item itemvalue="JUnit.ReadExcel.readAllData" />
+        <item itemvalue="JUnit.ReadExcel.readRowData" />
+        <item itemvalue="JUnit.ReadExcel.readTest" />
+        <item itemvalue="Application.ReadExcel" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +202,7 @@
       <workItem from="1593505387131" duration="28000" />
       <workItem from="1593505464142" duration="83000" />
       <workItem from="1593505612688" duration="671000" />
-      <workItem from="1594259121333" duration="4834000" />
+      <workItem from="1594259121333" duration="17325000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <created>1592190637742</created>
@@ -316,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593423304971</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update">
+      <created>1594264264694</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1594264264694</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,14 +309,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="415" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594262681237">
+    <state x="415" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594278372901">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="415" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1594262681237" />
-    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1593477809114">
+    <state x="415" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1594278372901" />
+    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1594277183421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593477809114" />
+    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1594277183421" />
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593392324459">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -346,14 +325,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="245" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1594260242089" />
-    <state x="529" y="0" key="CommitChangelistDialog2" timestamp="1593423478845">
+    <state x="194" y="0" key="CommitChangelistDialog2" timestamp="1594264254495">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="529" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593423478845" />
-    <state width="583" height="466" key="DebuggerActiveHint" timestamp="1594261133519">
+    <state x="194" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594264254495" />
+    <state width="583" height="575" key="DebuggerActiveHint" timestamp="1594289489966">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="583" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1594261133519" />
+    <state width="583" height="575" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1594289489966" />
     <state x="836" y="184" key="FileChooserDialogImpl" timestamp="1592191215835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -366,38 +345,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="728" y="125" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1592189722229" />
-    <state width="1323" height="257" key="GridCell.Tab.0.bottom" timestamp="1594264169587">
+    <state width="1323" height="277" key="GridCell.Tab.0.bottom" timestamp="1594289491676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594264169587" />
-    <state width="1323" height="257" key="GridCell.Tab.0.center" timestamp="1594264169587">
+    <state width="1323" height="277" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594289491676" />
+    <state width="1323" height="277" key="GridCell.Tab.0.center" timestamp="1594289491676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594264169587" />
-    <state width="1323" height="257" key="GridCell.Tab.0.left" timestamp="1594264169587">
+    <state width="1323" height="277" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594289491676" />
+    <state width="1323" height="277" key="GridCell.Tab.0.left" timestamp="1594289491676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594264169587" />
-    <state width="1323" height="257" key="GridCell.Tab.0.right" timestamp="1594264169587">
+    <state width="1323" height="277" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594289491676" />
+    <state width="1323" height="277" key="GridCell.Tab.0.right" timestamp="1594289491676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594264169587" />
-    <state width="1323" height="202" key="GridCell.Tab.1.bottom" timestamp="1594262611565">
+    <state width="1323" height="277" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594289491676" />
+    <state width="1323" height="277" key="GridCell.Tab.1.bottom" timestamp="1594289491676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="202" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594262611565" />
-    <state width="1323" height="202" key="GridCell.Tab.1.center" timestamp="1594262611565">
+    <state width="1323" height="277" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594289491676" />
+    <state width="1323" height="277" key="GridCell.Tab.1.center" timestamp="1594289491676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="202" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594262611565" />
-    <state width="1323" height="202" key="GridCell.Tab.1.left" timestamp="1594262611565">
+    <state width="1323" height="277" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594289491676" />
+    <state width="1323" height="277" key="GridCell.Tab.1.left" timestamp="1594289491676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="202" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594262611565" />
-    <state width="1323" height="202" key="GridCell.Tab.1.right" timestamp="1594262611565">
+    <state width="1323" height="277" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594289491676" />
+    <state width="1323" height="277" key="GridCell.Tab.1.right" timestamp="1594289491676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="202" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594262611565" />
+    <state width="1323" height="277" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594289491676" />
     <state x="157" y="43" key="Maven.ArtifactSearchDialog" timestamp="1592892543702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -418,6 +397,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="509" y="134" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593397413177" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1594289178069">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1594289178069" />
     <state x="444" y="209" width="817" height="473" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1592188942388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -485,6 +468,22 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/demo/ReadExcel.java</url>
+          <line>71</line>
+          <properties class="org.example.test.utils.demo.ReadExcel" method="readTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/demo/ReadExcel.java</url>
+          <line>20</line>
+          <properties class="org.example.test.utils.demo.ReadExcel" method="readExcel2Map">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
