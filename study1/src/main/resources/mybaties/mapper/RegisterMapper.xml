@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.mybatis.pojo">
+    <select id="findAll" resultType="org.example.mybatis.pojo.Roles">
+        select * from dmall_roles
+    </select>
+    <select id="getRolesCount" resultType="Integer">
+        select count(*) from  dmall_roles
+    </select>
+    <insert id="addRoles" parameterType="org.example.mybatis.pojo.Roles">
+        insert into dmall_roles(id, shopId, roleName, description)
+        values (#{id}, #{shopId}, #{roleName}, #{description})
+    </insert>
+    <update id="modifyRoles" parameterType="org.example.mybatis.pojo.Roles" >
+        update dmall_roles set roleName = #{roleName}, description = #{description}
+        where id = #{id}
+    </update>
+    <delete id="deleteRoles" parameterType="Integer">
+        delete from dmall_roles where id = #{id}
+    </delete>
+</mapper>

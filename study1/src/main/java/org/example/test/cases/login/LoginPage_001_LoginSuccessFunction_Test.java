@@ -1,19 +1,21 @@
 package org.example.test.cases.login;
 
+import org.apache.log4j.Logger;
 import org.example.test.base.BaseParpare;
-import org.example.test.page.FramePage;
 import org.example.test.pagehelper.HomePageHelper;
 import org.example.test.pagehelper.LoginPageHelper;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.Map;
 
 public class LoginPage_001_LoginSuccessFunction_Test extends BaseParpare {
 
+    Logger logger = Logger.getLogger(LoginPage_001_LoginSuccessFunction_Test.class.getName());
+
     /**
      * 登录成功
      */
+    @Test
     public void loginSuccessFunction() {
         LoginPageHelper.waitLoginPageLoad(seleniumUtil, timeOut);
         LoginPageHelper.typeLoginInfo(seleniumUtil, "jojo", "bean");

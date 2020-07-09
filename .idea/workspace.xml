@@ -1,31 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587531dc-6702-4614-a66d-4fd1e9287e2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/study1/logFilePath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_15_44_34_loginFailureFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_15_56_07_loginFailureFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_15_57_17_loginFailureFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_15_58_32_loginFailureFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_16_00_19_loginFailureFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_16_01_03_loginFailureFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_16_06_07_loginFailureFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_17_08_31_registerSuccessFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_17_09_35_registerSuccessFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_17_12_07_registerSuccessFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_17_12_57_registerSuccessFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/RegisterPage_002_RegisterSuccessFunction_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/page/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/RegisterPageHelper.java" afterDir="false" />
+    <list default="true" id="587531dc-6702-4614-a66d-4fd1e9287e2e" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/study1/logs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/logs.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/result/logs/BaseParpare/BaseParparePage_.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/result/logs/TestngRetry/TestngRetryPage_.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/result/logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/result/logs/log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/result/logs/logs.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/result/logsTestngRetryTestngRetryPage_.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_09_10_15_36_loginSuccessFunction.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_09_10_23_39_loginSuccessFunction.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/data/pojo/RegisterUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/src/main/resources/mybaties/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/src/main/resources/mybaties/mapper/RegisterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/src/main/resources/mybaties/mybaties-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/logFilePath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_15_44_34_loginFailureFunction.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_15_56_07_loginFailureFunction.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_15_57_17_loginFailureFunction.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_15_58_32_loginFailureFunction.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_16_00_19_loginFailureFunction.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_09_10_08_45_loginSuccessFunction.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_16_01_03_loginFailureFunction.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_09_10_10_30_loginSuccessFunction.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_16_06_07_loginFailureFunction.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_17_08_31_registerSuccessFunction.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_09_09_46_37_registerSuccessFunction.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_17_09_35_registerSuccessFunction.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_17_12_07_registerSuccessFunction.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/result/screenshot/2020_06_29_17_12_57_registerSuccessFunction.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/base/BaseParpare.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/base/BaseParpare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/FramePageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/FramePageHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/HomePageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/HomePageHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/RegisterPage_002_RegisterSuccessFunction_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/RegisterPage_002_RegisterSuccessFunction_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/RegisterPageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/RegisterPageHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/LogConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/LogConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/SeleniumUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/SeleniumUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/target/classes/org/example/test/base/BaseParpare.class" beforeDir="false" afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/base/BaseParpare.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study1/target/classes/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/target/classes/org/example/test/pagehelper/FramePageHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/pagehelper/FramePageHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/target/classes/org/example/test/pagehelper/HomePageHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/pagehelper/HomePageHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/target/classes/org/example/test/utils/LogConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/utils/LogConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/target/classes/org/example/test/utils/SeleniumUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/utils/SeleniumUtil$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study1/target/classes/org/example/test/utils/SeleniumUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/utils/SeleniumUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study1/test-output/power-emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test-output/power-emailable-report.html" afterDir="false" />
     </list>
@@ -81,16 +96,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/study1/src/main/resources/driver/chrome" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/study1/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IDEAWork\selenium\study1\src\main\resources\driver\chrome" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IDEAWork\selenium\study1\src\main\resources\driver" />
       <recent name="E:\IDEAWork\selenium\study1\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAWork\selenium\study1\src\main\resources" />
+      <recent name="E:\IDEAWork\selenium\study1\src\main\resources\mybaties\mapper" />
+      <recent name="E:\IDEAWork\selenium\study1\src\main\resources\mybaties" />
+      <recent name="E:\IDEAWork\selenium\study1\src\main\resources\driver\chrome" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.E:/IDEAWork/selenium/study1/src/main/resources/testng.xml">
@@ -204,7 +222,15 @@
       <workItem from="1593390475509" duration="9186000" />
       <workItem from="1593400948444" duration="5544000" />
       <workItem from="1593418934667" duration="1079000" />
-      <workItem from="1593420692786" duration="2500000" />
+      <workItem from="1593420692786" duration="6693000" />
+      <workItem from="1593505010114" duration="18000" />
+      <workItem from="1593505114987" duration="76000" />
+      <workItem from="1593505235330" duration="19000" />
+      <workItem from="1593505264611" duration="89000" />
+      <workItem from="1593505387131" duration="28000" />
+      <workItem from="1593505464142" duration="83000" />
+      <workItem from="1593505612688" duration="671000" />
+      <workItem from="1594259121333" duration="4834000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <created>1592190637742</created>
@@ -283,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593397263159</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update">
+      <created>1593423304971</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593423304971</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,21 +326,34 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="create" />
     <MESSAGE value="uodate" />
-    <option name="LAST_COMMIT_MESSAGE" value="uodate" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="415" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594262681237">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="415" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1594262681237" />
+    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1593477809114">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593477809114" />
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593392324459">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1593392324459" />
-    <state x="529" y="0" key="CommitChangelistDialog2" timestamp="1593397261326">
+    <state x="409" y="245" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1594260242089">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="529" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593397261326" />
-    <state width="583" height="466" key="DebuggerActiveHint" timestamp="1593392342057">
+    <state x="409" y="245" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1594260242089" />
+    <state x="529" y="0" key="CommitChangelistDialog2" timestamp="1593423478845">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="583" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1593392342057" />
+    <state x="529" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593423478845" />
+    <state width="583" height="466" key="DebuggerActiveHint" timestamp="1594261133519">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="583" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1594261133519" />
     <state x="836" y="184" key="FileChooserDialogImpl" timestamp="1592191215835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -320,38 +366,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="728" y="125" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1592189722229" />
-    <state width="1323" height="301" key="GridCell.Tab.0.bottom" timestamp="1593422013735">
+    <state width="1323" height="257" key="GridCell.Tab.0.bottom" timestamp="1594264169587">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="301" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593422013735" />
-    <state width="1323" height="301" key="GridCell.Tab.0.center" timestamp="1593422013735">
+    <state width="1323" height="257" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594264169587" />
+    <state width="1323" height="257" key="GridCell.Tab.0.center" timestamp="1594264169587">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="301" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593422013735" />
-    <state width="1323" height="301" key="GridCell.Tab.0.left" timestamp="1593422013735">
+    <state width="1323" height="257" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594264169587" />
+    <state width="1323" height="257" key="GridCell.Tab.0.left" timestamp="1594264169587">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="301" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593422013735" />
-    <state width="1323" height="301" key="GridCell.Tab.0.right" timestamp="1593422013735">
+    <state width="1323" height="257" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594264169587" />
+    <state width="1323" height="257" key="GridCell.Tab.0.right" timestamp="1594264169587">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="301" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593422013735" />
-    <state width="1323" height="202" key="GridCell.Tab.1.bottom" timestamp="1593401279273">
+    <state width="1323" height="257" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594264169587" />
+    <state width="1323" height="202" key="GridCell.Tab.1.bottom" timestamp="1594262611565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="202" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593401279273" />
-    <state width="1323" height="202" key="GridCell.Tab.1.center" timestamp="1593401279272">
+    <state width="1323" height="202" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594262611565" />
+    <state width="1323" height="202" key="GridCell.Tab.1.center" timestamp="1594262611565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="202" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593401279272" />
-    <state width="1323" height="202" key="GridCell.Tab.1.left" timestamp="1593401279272">
+    <state width="1323" height="202" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594262611565" />
+    <state width="1323" height="202" key="GridCell.Tab.1.left" timestamp="1594262611565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="202" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593401279272" />
-    <state width="1323" height="202" key="GridCell.Tab.1.right" timestamp="1593401279272">
+    <state width="1323" height="202" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594262611565" />
+    <state width="1323" height="202" key="GridCell.Tab.1.right" timestamp="1594262611565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="202" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593401279272" />
+    <state width="1323" height="202" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594262611565" />
     <state x="157" y="43" key="Maven.ArtifactSearchDialog" timestamp="1592892543702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -360,10 +406,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="556" y="101" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1592190945256" />
-    <state x="195" y="12" key="SettingsEditor" timestamp="1592189074762">
+    <state x="195" y="12" key="SettingsEditor" timestamp="1594264042456">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="195" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592189074762" />
+    <state x="195" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594264042456" />
     <state x="404" y="105" width="549" height="524" key="StructurePopup" timestamp="1593417256518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -376,10 +422,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="444" y="209" width="817" height="473" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1592188942388" />
-    <state x="418" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1593420744441">
+    <state x="418" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1594259126902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="418" y="267" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593420744441" />
+    <state x="418" y="267" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1594259126902" />
     <state x="711" y="316" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592190683578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -410,7 +456,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.java</url>
-          <line>16</line>
+          <line>18</line>
           <properties class="org.example.test.cases.login.LoginPage_001_LoginSuccessFunction_Test" method="loginSuccessFunction">
             <option name="EMULATED" value="true" />
           </properties>
@@ -425,20 +471,20 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/study1/src/main/java/org/example/test/base/BaseParpare.java</url>
-          <line>24</line>
-          <properties class="org.example.test.base.BaseParpare" method="startTest">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/PropertiesDateProvider.java</url>
           <line>10</line>
           <properties class="org.example.test.utils.PropertiesDateProvider" method="getTestData">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/LogConfiguration.java</url>
+          <line>10</line>
+          <properties class="org.example.test.utils.LogConfiguration" method="initLog">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

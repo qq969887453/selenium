@@ -2,6 +2,7 @@ package org.example.test.base;
 
 
 import org.apache.log4j.Logger;
+import org.example.test.utils.LogConfiguration;
 import org.example.test.utils.SeleniumUtil;
 import org.testng.Assert;
 import org.testng.ITestContext;
@@ -9,6 +10,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 public class BaseParpare {
+    static {
+        LogConfiguration.initLog("BaseParparePage_");
+    }
     static Logger logger = Logger.getLogger(BaseParpare.class.getName());
     protected SeleniumUtil seleniumUtil = null;
     protected ITestContext testContext = null;

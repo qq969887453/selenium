@@ -19,6 +19,7 @@ import java.util.concurrent.TimeUnit;
  * selenium 中的基本操作封装
  */
 public class SeleniumUtil {
+
     public static Logger logger = Logger.getLogger(SeleniumUtil.class.getName());
     public ITestResult it = null;
     public WebDriver driver = null;
