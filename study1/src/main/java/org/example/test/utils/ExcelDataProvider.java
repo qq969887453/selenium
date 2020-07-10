@@ -3,7 +3,6 @@ package org.example.test.utils;
 import jxl.Cell;
 import jxl.Sheet;
 import jxl.Workbook;
-import jxl.read.biff.BiffException;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 
@@ -59,7 +58,7 @@ public class ExcelDataProvider implements Iterator<Object[]> {
     /**
      * @return 判断是否还有下一个内容
      *         1、当行为空或者当前行数大于总行数（数据已经读完）不再读取；
-     *         2、
+     *         2、如果获取的excel第一行的数据为空，则不再读取；
      */
     @Override
     public boolean hasNext() {
