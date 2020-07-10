@@ -3,6 +3,7 @@ package org.example.test.utils.demo;
 import jxl.Cell;
 import jxl.Sheet;
 import jxl.Workbook;
+import org.example.test.cases.login.LoginPage_001_LoginSuccessFunction_Test;
 import org.junit.Test;
 
 import java.io.FileInputStream;
@@ -17,7 +18,6 @@ public class ReadExcel {
     /**
      * 读取excel封装Map
      */
-    @Test
     public void readExcel2Map(){
         String path = "C:\\Users\\WangChao\\Desktop\\20200701\\清单.xls";
         try {
@@ -87,6 +87,22 @@ public class ReadExcel {
             }
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void fun01(){
+        String className = LoginPage_001_LoginSuccessFunction_Test.class.getName();
+        System.out.println(className);
+        int dotIndexNum = className.indexOf(".");
+        int underlineIndexNum = className.indexOf("_");
+        if (dotIndexNum > 0){
+            String moduleName = className.substring(23, className.lastIndexOf("."));
+            System.out.println(moduleName);
+        }
+        if (underlineIndexNum > 0){
+            String substring = className.substring(underlineIndexNum + 1, underlineIndexNum + 4);
+            System.out.println(substring);
         }
     }
 }

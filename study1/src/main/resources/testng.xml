@@ -10,7 +10,7 @@
     <!--进程等待1秒中控制时间-->
     <parameter name="sleepTime" value="800" />
     <!--页面元素10秒不出现超时时间-->
-    <parameter name="timeOut" value="20" />
+    <parameter name="timeOut" value="200" />
     <!--alert 弹出框等待时间 ms-->
     <parameter name="waitMillisecondsForAlert" value="4000" />
 

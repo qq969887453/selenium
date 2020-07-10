@@ -15,12 +15,12 @@ public class LoginPage_001_LoginSuccessFunction_Test extends BaseParpare {
     /**
      * 登录成功
      */
-    @Test
-    public void loginSuccessFunction() {
+    @Test(dataProvider = "testData")
+    public void loginSuccessFunction(Map<String, String> data) {
         LoginPageHelper.waitLoginPageLoad(seleniumUtil, timeOut);
-        LoginPageHelper.typeLoginInfo(seleniumUtil, "jojo", "bean");
+        LoginPageHelper.typeLoginInfo(seleniumUtil, data.get("USERNAME"), data.get("PASSWORD"));
         HomePageHelper.waitHomePageLoad(seleniumUtil, timeOut);
-        HomePageHelper.checkUsername(seleniumUtil, timeOut, "jojo");
+        HomePageHelper.checkUsername(seleniumUtil, timeOut, data.get("USERNAME"));
     }
 
     /**

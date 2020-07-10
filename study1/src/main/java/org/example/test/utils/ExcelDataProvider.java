@@ -10,9 +10,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 
 /**
  * 读取excel提供的数据
@@ -53,6 +51,35 @@ public class ExcelDataProvider implements Iterator<Object[]> {
             logger.error("不能读取文件： [" + path + "]",e);
             Assert.fail("不能读取文件： [" + path + "]");
         }
+    }
+
+    public List<Object> readExcel2List(String file){
+        List<Object> datas = new ArrayList<>();
+        try {
+            InputStream inputStream = new FileInputStream(file);
+            Workbook workbook = Workbook.getWorkbook(inputStream);
+            Sheet sheet = workbook.getSheet(0);
+            List<String> key = new ArrayList<>();
+            Cell[] row = sheet.getRow(0);
+            for (int i = 0; i < row.length; i++) {
+                key.add(row[i].getContents().toString());
+            }
+            int columns = sheet.getColumns();
+            Map<String, String> data;
+            for (int i = 1; i < columns; i++) {
+                data = new HashMap<String, String>();
+                String value = "";
+                Cell[] column = sheet.getRow(i);
+                for (int j = 0; j < column.length; j++) {
+                    value = column[j].getContents().toString();
+                    data.put(key.get(j),value);
+                }
+                datas.add(data);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return datas;
     }
 
     /**
