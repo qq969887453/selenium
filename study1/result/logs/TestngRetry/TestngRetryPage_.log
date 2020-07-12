@@ -1,26 +1,26 @@
-[2020-07-12 18:09:14] [WARN] FileNotFoundException:./config/config.properties
-[2020-07-12 18:09:14] [INFO] RetryCount=0
-[2020-07-12 18:09:14] [INFO] SourceDir=src
-[2020-07-12 18:09:14] [INFO] SourceEncoding=UTF-8
-[2020-07-12 18:09:15] [INFO] 开始启动浏览器!
-[2020-07-12 18:09:20] [INFO] 最大化浏览器:chrome
-[2020-07-12 18:09:22] [INFO] 打开测试页面:[http://127.0.0.1:1080/WebTours/]
-[2020-07-12 18:09:22] [INFO] registerSuccessFunction 测试用例开始执行！
-[2020-07-12 18:09:22] [INFO] 正在跳进frame:[ name: body]
-[2020-07-12 18:09:22] [INFO] 进入frame: [ name: body]成功 
-[2020-07-12 18:09:22] [INFO] 正在跳进frame:[ name: info]
-[2020-07-12 18:09:23] [INFO] 进入frame: [ name: info]成功 
-[2020-07-12 18:09:23] [INFO] 点击元素 [By.xpath: //a[1]/b]
-[2020-07-12 18:09:23] [INFO] 输入：[zhangsan] 到 [By.name: username]
-[2020-07-12 18:09:23] [INFO] 输入：[123456] 到 [By.name: password]
-[2020-07-12 18:09:23] [INFO] 输入：[123456] 到 [By.name: passwordConfirm]
-[2020-07-12 18:09:23] [INFO] 输入：[zhang] 到 [By.name: firstName]
-[2020-07-12 18:09:24] [INFO] 输入：[san] 到 [By.name: lastName]
-[2020-07-12 18:09:24] [INFO] 输入：[shenzhen] 到 [By.name: address1]
-[2020-07-12 18:09:24] [INFO] 输入：[nanshan] 到 [By.name: address2]
-[2020-07-12 18:09:24] [INFO] 点击元素 [By.xpath: //*[@src='/WebTours/images/button_next.gif']]
-[2020-07-12 18:09:24] [INFO] registerSuccessFunction 测试用例执行成功！
-[2020-07-12 18:09:24] [WARN] registerSuccessFunction 测试用例执行失败！
-[2020-07-12 18:09:24] [INFO] [2020_07_12_18_09_24_registerSuccessFunction] 截图成功，保存在：[ result/screenshot/2020_07_12_18_09_24_registerSuccessFunction.jpg ]
-[2020-07-12 18:09:25] [INFO] 执行成功的用例 = registerSuccessFunction
-[2020-07-12 18:09:25] [INFO] 执行失败的用例 = registerSuccessFunction
+[2020-07-12 18:21:24] [WARN] FileNotFoundException:./config/config.properties
+[2020-07-12 18:21:24] [INFO] RetryCount=0
+[2020-07-12 18:21:24] [INFO] SourceDir=src
+[2020-07-12 18:21:24] [INFO] SourceEncoding=UTF-8
+[2020-07-12 18:21:24] [INFO] 开始启动浏览器!
+[2020-07-12 18:21:29] [INFO] 最大化浏览器:chrome
+[2020-07-12 18:21:31] [INFO] 打开测试页面:[http://127.0.0.1:1080/WebTours/]
+[2020-07-12 18:21:31] [INFO] registerSuccessFunction 测试用例开始执行！
+[2020-07-12 18:21:31] [INFO] 正在跳进frame:[ name: body]
+[2020-07-12 18:21:31] [INFO] 进入frame: [ name: body]成功 
+[2020-07-12 18:21:31] [INFO] 正在跳进frame:[ name: info]
+[2020-07-12 18:21:31] [INFO] 进入frame: [ name: info]成功 
+[2020-07-12 18:21:32] [INFO] 点击元素 [By.xpath: //a[1]/b]
+[2020-07-12 18:21:32] [INFO] 输入：[zhangsan] 到 [By.name: username]
+[2020-07-12 18:21:32] [INFO] 输入：[123456] 到 [By.name: password]
+[2020-07-12 18:21:32] [INFO] 输入：[123456] 到 [By.name: passwordConfirm]
+[2020-07-12 18:21:32] [INFO] 输入：[zhang] 到 [By.name: firstName]
+[2020-07-12 18:21:32] [INFO] 输入：[san] 到 [By.name: lastName]
+[2020-07-12 18:21:32] [INFO] 输入：[shenzhen] 到 [By.name: address1]
+[2020-07-12 18:21:33] [INFO] 输入：[nanshan] 到 [By.name: address2]
+[2020-07-12 18:21:33] [INFO] 点击元素 [By.xpath: //*[@src='/WebTours/images/button_next.gif']]
+[2020-07-12 18:21:33] [INFO] registerSuccessFunction 测试用例执行成功！
+[2020-07-12 18:21:33] [WARN] registerSuccessFunction 测试用例执行失败！
+[2020-07-12 18:21:33] [ERROR] [2020_07_12_18_21_33_registerSuccessFunction] ,截图失败，原因：null
+[2020-07-12 18:21:35] [INFO] 执行成功的用例 = registerSuccessFunction
+[2020-07-12 18:21:35] [INFO] 执行失败的用例 = registerSuccessFunction

@@ -1,44 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587531dc-6702-4614-a66d-4fd1e9287e2e" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/data/data.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_11_22_10_43_registerSuccessFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_11_22_23_31_registerSuccessFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_11_22_24_14_registerSuccessFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_11_22_27_17_registerSuccessFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_12_17_56_09_registerSuccessFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_12_18_01_50_registerSuccessFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_12_18_03_15_registerSuccessFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_12_18_04_03_registerSuccessFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_12_18_04_53_registerSuccessFunction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/ExcelDataUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/target/classes/META-INF/study1.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/target/classes/driver/chrome/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/target/classes/mybaties/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/target/classes/mybaties/mapper/RegisterMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/target/classes/mybaties/mybaties-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/target/classes/org/example/data/pojo/RegisterUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/page/RegisterPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/pagehelper/RegisterPageHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/utils/ExcelDataProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/utils/demo/ReadExcel.class" afterDir="false" />
+    <list default="true" id="587531dc-6702-4614-a66d-4fd1e9287e2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_12_18_11_31_registerSuccessFunction.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/result/screenshot/2020_07_12_18_15_02_registerSuccessFunction.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/register/RegisterPage_001_RegisterSuccessFunction_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/logs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/result/logs/BaseParpare/BaseParparePage_.log" beforeDir="false" afterPath="$PROJECT_DIR$/study1/result/logs/BaseParpare/BaseParparePage_.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study1/result/logs/TestngRetry/TestngRetryPage_.log" beforeDir="false" afterPath="$PROJECT_DIR$/study1/result/logs/TestngRetry/TestngRetryPage_.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/base/BaseParpare.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/base/BaseParpare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/login/RegisterPage_002_RegisterSuccessFunction_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/register/RegisterPage_002_RegisterSuccessFunction_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/RegisterPageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/RegisterPageHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/ExcelDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/ExcelDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/demo/ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/java/org/example/test/utils/demo/ReadExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study1/src/main/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/target/classes/org/example/test/base/BaseParpare.class" beforeDir="false" afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/base/BaseParpare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/target/classes/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/study1/target/classes/org/example/test/cases/login/LoginPage_001_LoginSuccessFunction_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study1/target/classes/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/register/RegisterPage_002_RegisterSuccessFunction_Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/study1/test-output/power-emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test-output/power-emailable-report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -242,7 +211,7 @@
       <workItem from="1594367195699" duration="355000" />
       <workItem from="1594369361552" duration="619000" />
       <workItem from="1594461372949" duration="7198000" />
-      <workItem from="1594546190803" duration="2094000" />
+      <workItem from="1594546190803" duration="2842000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <created>1592190637742</created>
@@ -356,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594350675829</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update">
+      <created>1594548642173</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1594548642173</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,10 +362,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="245" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1594260242089" />
-    <state x="194" y="0" key="CommitChangelistDialog2" timestamp="1594350707852">
+    <state x="194" y="0" key="CommitChangelistDialog2" timestamp="1594548629443">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="194" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594350707852" />
+    <state x="194" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594548629443" />
     <state width="583" height="575" key="DebuggerActiveHint" timestamp="1594548019892">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -406,38 +382,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="728" y="125" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1592189722229" />
-    <state width="1323" height="268" key="GridCell.Tab.0.bottom" timestamp="1594548607021">
+    <state width="1323" height="324" key="GridCell.Tab.0.bottom" timestamp="1594549304251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="268" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594548607021" />
-    <state width="1323" height="268" key="GridCell.Tab.0.center" timestamp="1594548607021">
+    <state width="1323" height="324" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594549304251" />
+    <state width="1323" height="324" key="GridCell.Tab.0.center" timestamp="1594549304251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="268" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594548607021" />
-    <state width="1323" height="268" key="GridCell.Tab.0.left" timestamp="1594548607021">
+    <state width="1323" height="324" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594549304251" />
+    <state width="1323" height="324" key="GridCell.Tab.0.left" timestamp="1594549304251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="268" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594548607021" />
-    <state width="1323" height="268" key="GridCell.Tab.0.right" timestamp="1594548607021">
+    <state width="1323" height="324" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594549304251" />
+    <state width="1323" height="324" key="GridCell.Tab.0.right" timestamp="1594549304251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="268" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594548607021" />
-    <state width="1323" height="324" key="GridCell.Tab.1.bottom" timestamp="1594548547501">
+    <state width="1323" height="324" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594549304251" />
+    <state width="1323" height="324" key="GridCell.Tab.1.bottom" timestamp="1594549304251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="324" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594548547501" />
-    <state width="1323" height="324" key="GridCell.Tab.1.center" timestamp="1594548547501">
+    <state width="1323" height="324" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594549304251" />
+    <state width="1323" height="324" key="GridCell.Tab.1.center" timestamp="1594549304251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="324" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594548547501" />
-    <state width="1323" height="324" key="GridCell.Tab.1.left" timestamp="1594548547501">
+    <state width="1323" height="324" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594549304251" />
+    <state width="1323" height="324" key="GridCell.Tab.1.left" timestamp="1594549304251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="324" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594548547501" />
-    <state width="1323" height="324" key="GridCell.Tab.1.right" timestamp="1594548547501">
+    <state width="1323" height="324" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594549304251" />
+    <state width="1323" height="324" key="GridCell.Tab.1.right" timestamp="1594549304251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="324" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594548547501" />
+    <state width="1323" height="324" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594549304251" />
     <state x="157" y="43" key="Maven.ArtifactSearchDialog" timestamp="1592892543702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -557,14 +533,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/study1/src/main/java/org/example/test/cases/register/RegisterPage_002_RegisterSuccessFunction_Test.java</url>
-          <line>13</line>
-          <properties class="org.example.test.cases.register.RegisterPage_001_RegisterSuccessFunction_Test" method="registerSuccessFunction">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/study1/src/main/java/org/example/test/pagehelper/HomePageHelper.java</url>
