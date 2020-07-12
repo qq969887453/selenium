@@ -19,6 +19,11 @@
             <package name = "org.example.test.cases.login"/>
         </packages>
     </test>
+    <test name="register" preserve-order="true">
+        <packages>
+            <package name="org.example.test.cases.register" />
+        </packages>
+    </test>
     <listeners>
         <!-- arrow插件实现用例失败重跑以及生成测试报告 -->
         <listener class-name="org.example.test.plugins.arrow.TestResultListener" />

@@ -2,6 +2,7 @@ package org.example.test.base;
 
 import org.apache.log4j.Logger;
 import org.example.test.utils.ExcelDataProvider;
+import org.example.test.utils.ExcelDataUtil;
 import org.example.test.utils.LogConfiguration;
 import org.example.test.utils.SeleniumUtil;
 import org.testng.Assert;
@@ -64,7 +65,7 @@ public class BaseParpare {
      *               className.substring(underlineIndexNum + 1, underlineIndexNum + 4);  ==>  001
      * @return
      */
-    @DataProvider(name = "testData")
+    /*@DataProvider(name = "testData")
     public Iterator<Object[]> dataForTestMethod(){
         String moduleName = null;
         String caseNum = null;
@@ -78,5 +79,22 @@ public class BaseParpare {
             caseNum = className.substring(underlineIndexNum + 1, underlineIndexNum + 4);
         }
         return new ExcelDataProvider(moduleName, caseNum);
+    }*/
+
+    @DataProvider(name="data")
+    public /*Map<Object, Object>*/ Object[] dataForMethod(){
+        String moduleName = null;
+        int caseNum = 0;
+        String className = this.getClass().getName();
+        int dotIndexNum = className.indexOf(".");
+        int underlineIndexNum = className.indexOf("_");
+        if (dotIndexNum > 0){
+            moduleName = className.substring(23, className.lastIndexOf("."));
+        }
+        if (underlineIndexNum > 0){
+            caseNum = Integer.valueOf(className.substring(underlineIndexNum + 3, underlineIndexNum + 4));
+        }
+        ExcelDataUtil util = new ExcelDataUtil();
+        return util.getCaseData(moduleName,caseNum);
     }
 }

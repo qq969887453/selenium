@@ -21,6 +21,19 @@ public class RegisterPageHelper {
         seleniumUtil.click(RegisterPage.RP_REGISTER_LINK);
     }
 
+    public static void typeRegisterInfo(SeleniumUtil seleniumUtil, String username,
+                                        String password, String confirm, String firstName,
+                                        String lastName, String address1, String address2){
+        seleniumUtil.type(RegisterPage.RP_REGISTER_USERNAME, username);
+        seleniumUtil.type(RegisterPage.RP_REGISTER_PASSWORD, password);
+        seleniumUtil.type(RegisterPage.RP_REGISTER_PASSWORD_CONFIRM, confirm);
+        seleniumUtil.type(RegisterPage.RP_REGISTER_FIRST_NAME, firstName);
+        seleniumUtil.type(RegisterPage.RP_REGISTER_LAST_NAME, lastName);
+        seleniumUtil.type(RegisterPage.RP_REGISTER_ADDRESS, address1);
+        seleniumUtil.type(RegisterPage.RP_REGISTER_CITY_STATE_ZIP, address2);
+        seleniumUtil.click(RegisterPage.RP_REGISTER_BUTTON);
+    }
+
     public static void register(SeleniumUtil seleniumUtil, int timeOut, RegisterUser registerUser){
         logger.info("开始输入注册信息");
         seleniumUtil.type(RegisterPage.RP_REGISTER_USERNAME, registerUser.getUsername());

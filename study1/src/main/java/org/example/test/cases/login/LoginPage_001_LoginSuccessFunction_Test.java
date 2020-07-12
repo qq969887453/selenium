@@ -15,7 +15,7 @@ public class LoginPage_001_LoginSuccessFunction_Test extends BaseParpare {
     /**
      * 登录成功
      */
-    @Test(dataProvider = "testData")
+    //@Test(dataProvider = "testData")
     public void loginSuccessFunction(Map<String, String> data) {
         LoginPageHelper.waitLoginPageLoad(seleniumUtil, timeOut);
         LoginPageHelper.typeLoginInfo(seleniumUtil, data.get("USERNAME"), data.get("PASSWORD"));

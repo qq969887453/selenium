@@ -53,12 +53,13 @@ public class ExcelDataProvider implements Iterator<Object[]> {
         }
     }
 
-    public List<Object> readExcel2List(String file){
-        List<Object> datas = new ArrayList<>();
+    /*public void readExcel2List(String moduleName, String caseNum){
         try {
-            InputStream inputStream = new FileInputStream(file);
-            Workbook workbook = Workbook.getWorkbook(inputStream);
-            Sheet sheet = workbook.getSheet(0);
+            List<Object> datas = new ArrayList<>();
+            path = "data/"+moduleName+".xls";
+            inputStream = new FileInputStream(path);
+            book = Workbook.getWorkbook(inputStream);
+            sheet = book.getSheet(0);
             List<String> key = new ArrayList<>();
             Cell[] row = sheet.getRow(0);
             for (int i = 0; i < row.length; i++) {
@@ -79,8 +80,7 @@ public class ExcelDataProvider implements Iterator<Object[]> {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return datas;
-    }
+    }*/
 
     /**
      * @return 判断是否还有下一个内容

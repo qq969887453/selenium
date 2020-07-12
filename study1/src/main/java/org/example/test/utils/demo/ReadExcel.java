@@ -15,6 +15,46 @@ import java.util.Map;
 
 public class ReadExcel {
 
+    @Test
+    public void excelDataUtil(){
+        try {
+            String path = "data/data.xls";
+            InputStream inputStream = new FileInputStream(path);
+            Workbook book = Workbook.getWorkbook(inputStream);
+            Sheet sheet = book.getSheet("register");   //如sheet：login
+            int rowNum = sheet.getRows();                  //获取行数量，除去表头用例数量为 rows-1
+            Cell[] cells = sheet.getColumn(0);       // 获取第一列的所有数据
+            // 获取用例id作为key
+            List<String> caseKey = new ArrayList<String>();
+            for (int i = 1; i < rowNum; i++) {
+                caseKey.add(cells[i].getContents().toString());
+            }
+            // 获取excel表头作为每行数据的key
+            List<String> dataKey = new ArrayList<String>();
+            Cell[] rows = sheet.getRow(0);         //获取第一行所有数据
+            int columns = sheet.getColumns();        //获取所有列
+            for (int j = 1; j < columns-1; j++) {
+                dataKey.add(rows[j].getContents().toString());
+            }
+            // 表头数据与值建立对应关系封装成Map
+            Map<String, Object> cases = new HashMap<String, Object>();
+            Map<String, String> data = null;
+            for (int r = 1; r < rowNum; r++) {
+                data = new HashMap<String, String>();
+                // 获取当前行
+                Cell[] row = sheet.getRow(r);
+                String value = "";
+                for (int c = 1; c < row.length-1; c++) {
+                    value = row[c].getContents().toString();
+                    data.put(dataKey.get(c-1), value);   // list中从0开始计算需要-1
+                }
+                cases.put(caseKey.get(r-1),data);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     /**
      * 读取excel封装Map
      */

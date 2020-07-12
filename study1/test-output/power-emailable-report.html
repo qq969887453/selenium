@@ -24,18 +24,54 @@ td,th {border:1px solid #009;padding:.25em .5em}
 <body>
 <table cellspacing="0" cellpadding="0" class="testOverview">
 <tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em"><a href="#t1">Login</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">11.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">Login</a></td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t2">register</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">10.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">10.6 seconds</td><td colspan="2">&nbsp;</td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
 <tr><th>Class</th><th>Method</th><th>Authors</th><th># of<br/>Scenarios</th><th>Running Counts</th><th>Parameters</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr id="t1"><th colspan="5">Login &#8212; passed</th></tr>
-<tr class="passedodd"><td>org.example.test.cases.login.LoginPage_001_LoginSuccessFunction_Test</td><td><a href="#m-395720700"><b>loginSuccessFunction</b>  </a></td><td>unknown</td><td class="numi">1</td><td>1</td><td>{PASSWORD=bean, USERNAME=jojo} </td><td>1594350610997</td><td class="numi">3074</td></tr>
+<tr id="t2"><th colspan="5">register &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="2">org.example.test.cases.register.RegisterPage_001_RegisterSuccessFunction_Test</td><td><a href="#m90606459"><b>registerSuccessFunction</b>  </a></td><td>unknown</td><td class="numi">1</td><td></td><td></td><td>1594548562467</td><td class="numi">2069</td></tr><tr class="failedodd"><td><a href="#m90606458"><b>registerSuccessFunction</b>  </a></td><td>unknown</td><td class="numi">1</td><td></td><td></td><td>1594548562467</td><td class="numi">2069</td></tr>
 </table>
 <h1>Login</h1>
-<h2 id="m-395720700" name="m-395720700" >org.example.test.cases.login.LoginPage_001_LoginSuccessFunction_Test:loginSuccessFunction</h2>
+<h1>register</h1>
+<h2 id="m90606459" name="m90606459" >org.example.test.cases.register.RegisterPage_001_RegisterSuccessFunction_Test:registerSuccessFunction</h2>
+<div>
+<h3>Test Messages</h3>
+result/screenshot/2020_07_12_18_09_24_registerSuccessFunction.jpg<br/>
+<img src="../../result/screenshot/2020_07_12_18_09_24_registerSuccessFunction.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">org.testng.internal.reflect.MethodMatcherException: 
+[public void org.example.test.cases.register.RegisterPage_001_RegisterSuccessFunction_Test.registerSuccessFunction(java.util.Map)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: registerSuccessFunction([Parameter{index=0, type=java.util.Map, declaredAnnotations=[]}])
+Arguments: [(java.lang.Integer) 1]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:925)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-904930875" name="m-904930875" >org.example.test.cases.register.RegisterPage_001_RegisterSuccessFunction_Test:registerSuccessFunction</h2>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr class="param"><th>Parameter #1</th></tr>
-<tr class="param stripe"><td>{PASSWORD=bean, USERNAME=jojo}</td>
+<tr class="param stripe"><td>{1={PASSWORD=123456, City/State/Zip=nanshan, First Name=zhang, Street Address=shenzhen, USERNAME=zhangsan, Confirm=123456, Last Name=san}}</td>
 </tr>
 </table>
 <p class="totop"><a href="#summary">back to summary</a></p>
